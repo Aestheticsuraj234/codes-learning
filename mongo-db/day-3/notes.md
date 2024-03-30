@@ -23,7 +23,7 @@
 
 ```sh
 mongoimport --db shop --collection products --file products.json
-```
+```.
 
 - `--db shop`: Specifies the database name as "shop".
 - `--collection products`: Specifies the collection name as "products".
