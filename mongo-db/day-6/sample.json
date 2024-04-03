@@ -1,0 +1,150 @@
+[
+  {
+    "username": "user1",
+    "email": "user1@example.com",
+    "subscriberCount": 10000,
+    "videos": [
+      {
+        "title": "Video 1 Title",
+        "views": 50000,
+        "likes": 2000,
+        "dislikes": 50
+      },
+      {
+        "title": "Video 2 Title",
+        "views": 75000,
+        "likes": 3500,
+        "dislikes": 100
+      }
+    ]
+  },
+  {
+    "username": "user2",
+    "email": "user2@example.com",
+    "subscriberCount": 5000,
+    "videos": [
+      {
+        "title": "Another Video Title",
+        "views": 30000,
+        "likes": 1500,
+        "dislikes": 30
+      }
+    ]
+  },
+  {
+    "username": "user3",
+    "email": "user3@example.com",
+    "subscriberCount": 20000,
+    "videos": [
+      {
+        "title": "Video 3 Title",
+        "views": 80000,
+        "likes": 4000,
+        "dislikes": 80
+      },
+      {
+        "title": "Video 4 Title",
+        "views": 60000,
+        "likes": 2500,
+        "dislikes": 75
+      }
+    ]
+  },
+  {
+    "username": "user4",
+    "email": "user4@example.com",
+    "subscriberCount": 15000,
+    "videos": [
+      {
+        "title": "Yet Another Video Title",
+        "views": 45000,
+        "likes": 1800,
+        "dislikes": 40
+      }
+    ]
+  },
+  {
+    "username": "user5",
+    "email": "user5@example.com",
+    "subscriberCount": 3000,
+    "videos": [
+      {
+        "title": "Amazing Video Title",
+        "views": 20000,
+        "likes": 1000,
+        "dislikes": 20
+      },
+      {
+        "title": "Fantastic Video Title",
+        "views": 40000,
+        "likes": 2000,
+        "dislikes": 50
+      }
+    ]
+  },
+  {
+    "username": "user6",
+    "email": "user6@example.com",
+    "subscriberCount": 25000,
+    "videos": [
+      {
+        "title": "User 6's Best Video",
+        "views": 100000,
+        "likes": 5000,
+        "dislikes": 150
+      }
+    ]
+  },
+  {
+    "username": "user7",
+    "email": "user7@example.com",
+    "subscriberCount": 8000,
+    "videos": [
+      {
+        "title": "Insane Video Title",
+        "views": 60000,
+        "likes": 3000,
+        "dislikes": 70
+      }
+    ]
+  },
+  {
+    "username": "user8",
+    "email": "user8@example.com",
+    "subscriberCount": 12000,
+    "videos": [
+      {
+        "title": "User 8's Top Video",
+        "views": 70000,
+        "likes": 3500,
+        "dislikes": 80
+      }
+    ]
+  },
+  {
+    "username": "user9",
+    "email": "user9@example.com",
+    "subscriberCount": 18000,
+    "videos": [
+      {
+        "title": "Crazy Video Title",
+        "views": 55000,
+        "likes": 2700,
+        "dislikes": 60
+      }
+    ]
+  },
+  {
+    "username": "user10",
+    "email": "user10@example.com",
+    "subscriberCount": 4000,
+    "videos": [
+      {
+        "title": "Epic Video Title",
+        "views": 25000,
+        "likes": 1200,
+        "dislikes": 25
+      }
+    ]
+  }
+]
