@@ -14,8 +14,8 @@
      ```javascript
      db.users.updateOne(
        { username: "john_doe" },
-       { $set: { email: "john@example.com" } }
-     )
+       { set: { email: "john@example.com" } }
+     ) 
      ```
 
 **2. `updateMany()` Method:**
@@ -72,13 +72,11 @@ Certainly! Here's a guide on removing and renaming fields in MongoDB documents:
      ```
 
 **2. Renaming Fields:**
-   - Renaming fields in MongoDB involves a two-step process: copying the existing value to a new field and removing the old field.
-   - Use the `$set` operator to create a new field with the existing value and the `$unset` operator to remove the old field.
-   - Syntax:
+   - Use the `$rename` operator to rename a field with the existing value 
      ```javascript
      db.collection.updateOne(
        { <filter> },
-       { $set: { <newFieldName>: "$existingFieldName" }, $unset: { <existingFieldName>: "" } }
+       { $rename: { <newFieldName>: "existingFieldName" } }
      )
      ```
    - Example:
@@ -86,7 +84,7 @@ Certainly! Here's a guide on removing and renaming fields in MongoDB documents:
      // Rename the "username" field to "email"
      db.users.updateOne(
        { _id: ObjectId("...") },
-       { $set: { email: "$username" }, $unset: { username: "" } }
+       { $rename: { email: "username" } }
      )
      ```
 
@@ -192,7 +190,7 @@ Certainly! Here's a guide on updating an embedded document in MongoDB:
      // Update the "address.city" field within the embedded "address" document
      db.users.updateOne(
        { _id: ObjectId("...") },
-       { $set: { "address.city": "New York" } }
+       { $set: { "address$.city": "New York" } }
      )
      ```
 
