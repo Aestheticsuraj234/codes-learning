@@ -36,6 +36,6 @@ db.products.aggregate(
 )
 
 
-price > 500
-category $group
-sum price
+// price > 500
+// category $group
+// sum price
