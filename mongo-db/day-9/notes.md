@@ -89,7 +89,7 @@ db.youtube.aggregate([
 ```json
 db.youtube.aggregate([
   { $group: { _id: null, totalLikes: { $sum: { $sum: "$videos.likes" } }, totalSubscribers: { $sum: "$subscriberCount" } } },
-  { $project: { _id: 0, avgLikesPerSubscriber: { $divide: ["$totalLikes", "$totalSubscribers"] } } }
+  // { $project: { _id: 0, avgLikesPerSubscriber: { $divide: ["$totalLikes", "$totalSubscribers"] } } }
 ])
 ```
 
