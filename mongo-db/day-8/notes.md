@@ -1,6 +1,3 @@
-Certainly! Here's a handwritten note with explanations and code examples on indexes in MongoDB:
-
----
 
 **Indexes in MongoDB**
 
